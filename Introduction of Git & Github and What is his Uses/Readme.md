@@ -110,3 +110,21 @@ Shift + Alt + ↓ Duplicate line
 Ctrl + D Select same word
 Ctrl + P File search
 Ctrl + Shift + P Command palette
+
+Git Concepts
+
+--> Repository - A Directory where git monitors your project files and records their revision history.
+
+--> Clone - It created a local copy of a remote repository on your machine.
+
+--> Stage - It Selects specific changes that you want Git to Include in the next Snapshot.
+
+--> Commit - It records the staged changes as a permanent version in the project history.
+
+--> Branch - Lets you Develop new features or experiment without affecting the main project.
+
+--> Merge - Lets you develop new features or experiment without affecting the main project.
+
+--> Pull - It Fetches and applies updates from a remote repository to your local one.
+
+--> Push - Its Uploads your local commits to a remote repository
