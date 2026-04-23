@@ -128,3 +128,28 @@ Git Concepts
 --> Pull - It Fetches and applies updates from a remote repository to your local one.
 
 --> Push - Its Uploads your local commits to a remote repository
+
+Git Repository Structure
+it Consists of 4 Parts:
+
+1. Working Directory: This is your local directory where you make the project (write code ) and make changes to it.
+
+2. Staging Area (or index): this is an area where you first need to put your project before committing. This is used for code review by other team members.
+
+3. Local Repository: this is your local repository where you commit changes to the project before pushing them to the central repository on GitHub. This is What is provided by the distributed version control system. This corresponds to the .git folder in Our directory.
+
+4. Central Repository: This is the main project on the central server, a copy of which is with every team member as a local repository.
+
+All the repository structure is internal to Git and is transparent to the developer.
+
+All the repository structure is internal to Git and is transparent to the developer.
+
+{{
+// transfer your project from working directory
+// to staging area.
+git add .
+
+// transfers your project from staging area to
+// Local repository.
+git commit -m
+}}
